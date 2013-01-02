@@ -1,0 +1,390 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- Um Oi de Belo Horizonte! -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta property="og:image" content="images/monster.png"/>
+
+<title>Eazz - Games e Apps</title>
+<style>
+@font-face {
+    font-family: segoeui;
+    src: url(fonts/segoel.eot); /* IE only */
+    src: url(fonts/segoel.otf);
+    format("opentype");
+    font-weight:100;
+}
+a {
+	text-decoration: none;
+}
+ul li {
+	display: inline;
+}
+h1 {
+	font-size: 4.375em;
+	font-weight: 100;
+	line-height: 0;
+}
+h2 {
+	font-size:2.5em;
+	font-weight:100;
+}
+h3 {
+	font-size:2.188em;
+	font-weight:100;
+}
+body {
+	font-family: segoeui, sans-serif;
+	margin:0;
+	background:white;
+	font-weight: 100;
+}
+.clear {
+	clear: both;
+}
+.content_topo {
+	width: 960px;
+	margin: 0 auto;
+}
+#content_meio {
+	width: 960px;
+	margin: 0 auto;
+	background:white;
+	height: 660px;
+	padding-top: 25px;
+	}
+.menu_fundo {
+	background: #007eff;
+}
+.menu {
+	width: 960px;
+	height: 30px;
+	margin: 0 auto;
+}
+
+#logo_eazz {
+	height: 30px;
+	width: 80px;
+	float: left;
+	background: url("images/eazz.png") center no-repeat;
+}
+.language {
+	width: 35px;
+	height: 15px;
+	float: right;
+	margin-top: 7px;
+}
+.main_content {
+	height: 523px;
+	width: 100%;
+}
+.monster {
+	width: 300px;
+	height: 280px;
+	background: url("images/monster.png");
+	float: left;
+	margin-top: 101px;
+}
+.main_text {
+	width: 650px;
+	height: 280px;
+	float: left;
+	margin-top: 80px;
+	margin-left: 10px;
+	color:white;
+}
+.bottom_text {
+	width: 420px;
+	height: 45px;
+	margin-top: 96px;
+	color: white;
+}
+.menu_canvas {
+	width: 320px;
+	height: 35px;
+	background: black;
+	float: left;
+}
+#nossos_apps {
+	height: 95px;
+	color: #00aeff;
+}
+.notes2me {
+	height: 50px;
+	width: 197px;
+	background:url(images/notes.png) top no-repeat;
+	float: left;
+	margin-left: 5px;
+	margin-top: 20px;
+	padding-top: 200px;
+	font-size: 28px;
+	text-align:center;
+	color: #fb2e46;
+}
+.pass {
+	height: 50px;
+	width: 197px;
+	background:url(images/pass.png) top no-repeat;
+	float: left;
+	margin-left: 95px;
+	margin-top: 20px;
+	padding-top: 200px;
+	font-size: 28px;
+	text-align:center;
+	color: #007eff;
+}
+.genius {
+	height: 50px;
+	width: 197px;
+	background:url(images/genius.png) top no-repeat;
+	float: left;
+	margin-left: 95px;
+	margin-top: 20px;
+	padding-top: 200px;
+	font-size: 28px;
+	text-align:center;
+	color: #636262;
+}
+.tictac {
+	height: 50px;
+	width: 197px;
+	background:url(images/tictac.png) top no-repeat;
+	float: left;
+	margin-left: 5px;
+	margin-top: 20px;
+	padding-top: 200px;
+	font-size: 28px;
+	text-align:center;
+	color: #636262;
+}
+.donkey {
+	height: 50px;
+	width: 197px;
+	background:url(images/donkey.png) top no-repeat;
+	float: left;
+	margin-left: 95px;
+	margin-top: 20px;
+	padding-top: 200px;
+	font-size: 28px;
+	text-align:center;
+	color: #ff55f3;
+}
+.app_txt {
+	height: 50px;
+	width: 197px;
+	float: left;
+	margin-left: 95px;
+	margin-top: 18px;
+	font-size: 33px;
+	color: #828282;
+	padding-top: 27px;
+	font-size: 33px;
+}
+#footer {
+	background: url("images/bh.png") center #00468c;
+	width: 100%;
+	height: 600px
+}
+.branco {
+	background: white;
+}
+.azul {
+	background: #00aeff;
+}
+.menu_txt {
+	font-weight: 100;
+	font-size: 21px;
+	color: #00aeff;
+	text-align: center;
+	}
+#projetos {
+	font-weight: 100;
+	font-size: 28px;
+	color: #7f7f7f;
+	margin-right: 100px;
+	margin-left: 2px;
+	}
+
+#sobre_nos {
+	font-weight: 100;
+	font-size: 28px;
+	color: #7f7f7f;
+	margin-right: 100px;
+	margin-left: 7px;}
+#contato {
+	font-weight: 100;
+	font-size: 28px;
+	color: #7f7f7f;
+	margin-right: 100px;
+	margin-left: 2px;}
+#inicio {
+	font-weight: 100;
+	font-size: 28px;
+	color: #7f7f7f;
+	margin-right: 100px;
+	margin-left: 2px;}
+	
+.menu_correcao {
+width: 100%;
+background: white;
+height: 80px;
+margin-top: 30px;
+position: fixed;
+text-align:center;
+}
+.menu_full {
+	width: 100%;
+	margin: 0 auto;
+}
+.footer_txt {
+	width: 960px;
+	margin: 0px auto;
+	height: 100px;
+	color: white;
+	font-weight: 100;
+}
+#contato_footer {
+	height: 670px;
+	background: #ff7800;
+}
+
+#contato_content {
+	width: 960px;
+	margin: 0px auto;
+}
+.contato_title {
+	font-size: 4.375em;
+	font-weight: 100;
+	color: white;
+	margin-bottom: 60px;
+	padding-top: 30px;}
+
+.icon_canvas {
+	background: left no-repeat;
+	height: 90px;
+	width: 351px;
+	float: left;
+	color: white;
+	font-size: 30px;
+	font-weight: 100;
+	padding-left: 129px;
+	padding-top: 41px;	
+	margin-bottom: 58px;}
+.mail{
+	background: url(images/mail.png) no-repeat;	
+}
+.phone {
+	background: url(images/phone.png) no-repeat;	
+}
+.facebook{
+	background: url(images/facebook.png) no-repeat;	
+}
+.twitter {
+	background: url(images/twitter.png) no-repeat;	
+}
+.projeto_title {
+	font-size: 4.375em;
+	font-weight: 100;
+	color: ##007eff;
+	}
+.sobre_txt {
+	font-size: 35px;
+	margin-top: -30px;
+}
+</style>
+<script type="text/javascript" src="scripts/jquery-1.8.2.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+	    $("#projetos").click(function() {
+	        $('html, body').animate({
+	            scrollTop: $("#content_meio").offset().top
+	        }, 500);
+	    });
+	    $("#sobre_nos").click(function() {
+	        $('html, body').animate({
+	            scrollTop: $("#footer").offset().top
+	        }, 500);
+	    });
+	    $("#contato").click(function() {
+	        $('html, body').animate({
+	            scrollTop: $("#contato_content").offset().top
+	        }, 500);
+	    });
+	    $("#inicio").click(function() {
+	        $('html, body').animate({
+	            scrollTop: $("#logo_eazz").offset().top
+	        }, 500);
+	    });
+	});
+</script>
+</head>
+
+<body>
+<div class="azul">
+		<div class="menu_fundo">
+		<div class="menu">
+			<div id="logo_eazz"></div>
+			<div class="language"></div>
+			<div class="clear"></div>
+		</div>
+		</div>
+	<div class="content_topo">
+		<div class="main_content">
+			<div class="monster"></div>
+			<div class="main_text">
+				<h1>Olá!</h1><h2>nós somos a EAZZ, uma empresa jovem focada em aplicativos ricos e games para Windows Phone 7 e Windows 8</h2>
+			</div>
+			<div class="clear"></div>
+			<div class="bottom_text"><h3>Dê uma olhada também em</h3></div>
+		</div>
+		</div>
+				<div class="branco">
+			<div class="menu_full">
+			<div class="menu_correcao">
+				<ul>
+					<li class="menu_txt">//</li>
+					<li><a href="javascript:void(0);" id="inicio">eazz</a></li>
+					<li class="menu_txt">//</li>
+					<li><a href="javascript:void(0);" id="projetos">projetos</a></li>
+					<li class="menu_txt">//</li>
+					<li><a href="javascript:void(0);" id="sobre_nos">sobre nós</a></li>
+					<li class="menu_txt">//</li>
+					<li><a href="javascript:void(0);" id="contato">contato</a></li>
+				</ul>
+			</div>
+			</div>
+</div>
+			<div class="branco">
+			<div id="content_meio">
+				<div id="nossos_apps">
+					<div class="projeto_title">projetos<div>
+				</div>
+				<a href="" class="notes2me">notes2.me</a>
+				<a href="" class="pass">password shaker</a>
+				<a href="" class="genius">metro genius</a>
+				<a href="" class="tictac">TicTacToe</a>
+				<a href="" class="donkey">donkey.bas</a>
+				<a href="" class="app_txt">A sua ideia</br>pode virar um</br>app ou game</br></a>
+			</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="footer_txt">
+			<div class="contato_title">sobre nós</div>
+			<div class="sobre_txt">Estamos em Belo Horizonte, Minas Gerais, Brasil, Terra do pão de queijo, futebol e gente bonita. Mas além disso, muito tecnologia  e inovação. <br><br>Somos uma pequena equipe focada em desenvolver apps e games que capturam a imaginação das pessoas, se você tem algo que gostaria de ver no mundo mobile, não exite em nos contactar.</div></div>
+		</div>
+		<div id="contato_footer">
+			<div id="contato_content">
+				<div class="contato_title">contato</div>
+				<a href="mailto:contato@eazz.com.br?Subject=Hey%Pessoal" class="icon_canvas mail">contato@eazz.com.br</a>
+				<div class="icon_canvas phone">+55 31 2565 9105</div>
+				<div class="clear"></div>
+				<a href="http://www.facebook.com/eazz" class="icon_canvas facebook">facebook.com/eazz</a>
+				<a href="http://www.twitter.com/eazz_mobile" class="icon_canvas twitter">@eazz_mobile</a>
+			</div>
+		</div>
+		</div>
+	</div>
+		
+</body>
+</html>
